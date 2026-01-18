@@ -30,9 +30,6 @@ A comprehensive Model Context Protocol (MCP) server providing file operations, c
 - View all environment variables
 - Get specific environment variable values
 
-### 🎲 Utility Functions (1 tool)
-- Random number generation for testing and utilities
-
 ## Installation
 
 1. Clone this repository:
