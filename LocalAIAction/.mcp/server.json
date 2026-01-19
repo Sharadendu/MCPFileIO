@@ -2,12 +2,12 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "description": "A comprehensive MCP server providing file operations (read, write, edit, search), compiler and execution tools (build, run, debug), log monitoring and analysis, process management, and utility functions for AI agent interactions.",
   "name": "io.github.Sharadendu",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "packages": [
     {
       "registryType": "nuget",
-      "identifier": "<your package ID here>",
-      "version": "0.1.0-beta",
+      "identifier": "Sharadendu.MCPFileIO",
+      "version": "0.1.1-beta",
       "transport": {
         "type": "stdio"
       },

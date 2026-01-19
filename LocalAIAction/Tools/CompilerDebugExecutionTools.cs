@@ -483,7 +483,7 @@ internal class CompilerDebugExecutionTools
     {
         try
         {
-            Process process = null;
+            Process? process = null;
 
             if (int.TryParse(processIdentifier, out var pid))
             {
@@ -538,7 +538,7 @@ internal class CompilerDebugExecutionTools
     {
         try
         {
-            Process process = null;
+            Process? process = null;
 
             if (int.TryParse(processIdentifier, out var pid))
             {
