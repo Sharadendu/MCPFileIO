@@ -8,8 +8,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
 
     <!-- Set up the NuGet package to be an MCP server -->
-    <PackAsTool>true</PackAsTool>
-    <PackageType>McpServer</PackageType>
+    <PackAsTool>false</PackAsTool>
 
     <!-- Set up the MCP server to be a self-contained application that does not rely on a shared framework -->
     <SelfContained>true</SelfContained>
@@ -20,10 +19,17 @@
 
     <!-- Set recommended package metadata -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageId>SampleMcpServer</PackageId>
-    <PackageVersion>0.1.0-beta</PackageVersion>
-    <PackageTags>AI; MCP; server; stdio</PackageTags>
-    <Description>An MCP server using the MCP C# SDK.</Description>
+    <PackageId>Sharadendu.MCPFileIO</PackageId>
+    <PackageVersion>0.1.1-beta</PackageVersion>
+    <PackageTags>AI;MCP;server;stdio;file-operations;compiler;execution;logging;monitoring</PackageTags>
+    <Description>A comprehensive MCP server providing file operations, compiler tools, execution capabilities, log monitoring, and process management for AI agent interactions.</Description>
+    <Authors>Sharadendu</Authors>
+    <Company>Sharadendu</Company>
+    <PackageProjectUrl>https://github.com/Sharadendu/MCPFileIO</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sharadendu/MCPFileIO</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2026 Sharadendu</Copyright>
   </PropertyGroup>
 
   <!-- Include additional files for browsing the MCP server. -->
